@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>COMP306</title>
+    <script type="text/javascript" src="middle.js"></script>
+</head>
+
+<body>
+
+    <h1>Welcome To Question 2-3</h1>
+
+    <label for="first-country">First Country:</label>
+    <input type="text" id="first-country" name="first-country"><br>
+
+    <label for="second-country">Second Country:</label>
+    <input type="text" id="second-country" name="second-country"><br>
+
+    <button onclick="updateTable01('diff_lang')">diff_lang()</button>
+    <button onclick="updateTable01('diff_lang_join')">diff_lang_join()</button>
+
+    <table id="differences-table">
+        <thead>
+            <tr>
+                <th>Language</th>
+            </tr>
+        </thead>
+        <tbody id="differences-body">
+        </tbody>
+    </table>
+
+</body>
+
+</html>

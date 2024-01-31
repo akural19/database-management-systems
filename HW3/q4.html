@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Dashboard.css">
+    <title>COMP306</title>
+    <script type="text/javascript" src="middle.js"></script>
+</head>
+
+<body>
+
+    <h1>Welcome To Question 4</h1>
+
+    <label for="operation-type">Choose an operation type:</label>
+    <select id="operation-type" name="operation-type">
+        <option value="MIN">MIN</option>
+        <option value="AVG">AVG</option>
+    </select><br>
+
+    <label for="country-name">Country Name:</label>
+    <input type="text" id="country-name" name="country-name"><br>
+
+    <button onclick="updateTable02()">Get Life Expectancy</button>
+
+    <table id="differences-table">
+        <tbody id="differences-body">
+        </tbody>
+    </table>
+
+</body>
+
+</html>
